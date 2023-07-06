@@ -1,0 +1,19 @@
+// Setup
+@import "setup/_mixins.scss";
+@import "setup/_variables.scss";
+
+// Basics
+@import "basics/_helpers.scss";
+@import "basics/_base.scss";
+@import "basics/_layout.scss";
+
+// Pages
+@import "views/_home.scss";
+
+// Components
+@import "cmps/_app-header.scss";
+@import "cmps/home/_hero.scss";
+@import "cmps/home/_features.scss";
+@import "cmps/home/_testimonials.scss";
+@import "cmps/home/_cta.scss";
+@import "cmps/home/_app-footer.scss";

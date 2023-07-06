@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: $clr1;
+  color: $clr-white;
+  font-family: "Livvic", sans-serif;
+  font-size: 1.8rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  border-radius: 3px;
+
+  font-family: inherit;
+  font-size: inherit;
+  background-color: transparent;
+
+  &.contact-btn {
+    color: inherit;
+    font-weight: 600;
+    line-height: 2.8rem;
+    padding: 1rem 3.2rem;
+    border-radius: 2.4rem;
+    border: 2px solid #fff;
+  }
+}
+
+button,
+a {
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+}

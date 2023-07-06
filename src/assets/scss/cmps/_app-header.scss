@@ -1,0 +1,32 @@
+.app-header {
+  margin: 7.3rem 16.5rem 13.3rem;
+
+  font-size: 1.8rem;
+  gap: 8rem;
+
+  svg {
+    height: 4rem;
+    width: 16rem;
+    flex-shrink: 0;
+  }
+
+  nav {
+    width: 100%;
+    justify-content: space-between;
+    ul {
+      gap: 4rem;
+      li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+
+  button {
+    color: inherit;
+    font-weight: 600;
+    line-height: 2.8rem;
+    cursor: pointer;
+  }
+}
