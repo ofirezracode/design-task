@@ -55,6 +55,8 @@
       .p-container {
         justify-content: space-between;
         .rect {
+          align-self: start;
+          display: block;
           width: 5rem;
           height: 0.4rem;
           flex-shrink: 0;
