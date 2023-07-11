@@ -1,8 +1,8 @@
 .app-header {
-  margin: 7.3rem 16.5rem 13.3rem;
+  margin: 7.3rem 3.9rem 13.3rem;
 
   font-size: 1.8rem;
-  gap: 8rem;
+  gap: 4.8rem;
   align-items: center;
 
   svg {
@@ -29,5 +29,19 @@
     font-weight: 600;
     line-height: 2.8rem;
     cursor: pointer;
+  }
+
+  @include for-tablet-layout {
+  }
+
+  @include for-normal-layout {
+  }
+
+  @include for-wide-layout {
+    margin: 7.3rem 16.5rem 13.3rem;
+    gap: 8rem;
+  }
+
+  @include for-extra-wide-layout {
   }
 }

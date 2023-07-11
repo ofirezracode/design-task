@@ -10,8 +10,13 @@
   }
 }
 
-@mixin for-normal-layout {
+@mixin for-narrow-layout {
   @media (min-width: calc($tablet-breakpoint)) {
+    @content;
+  }
+}
+@mixin for-normal-layout {
+  @media (min-width: calc($narrow-breakpoint)) {
     @content;
   }
 }
